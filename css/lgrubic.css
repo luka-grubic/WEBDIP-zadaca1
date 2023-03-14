@@ -1,3 +1,16 @@
-.heading{
-    display: flex;
+.heading img{
+    float: left;
+    width: 180px;
+    height: 180px
+}
+
+.heading h1{
+    position: relative;
+    font-size: 40px;
+    top: 70px;
+    left: 20px
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
