@@ -1,0 +1,1 @@
+barka: /var/www/WebDiP/2022/zadaca_01/lgrubic
