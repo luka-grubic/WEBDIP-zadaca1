@@ -1,47 +1,122 @@
 <!DOCTYPE html>
 <html lang="hr">
-    <head>
-        <title>Multimedija</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Luka Grubić">
-        <meta name="date" content="14.3.2023.">
-        <meta name="keywords" content="badminton, multimedija">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Multimedija</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luka Grubić">
+    <meta name="date" content="14.3.2023.">
+    <meta name="keywords" content="badminton, multimedija">
 
-        <link href="../css/lgrubic.css" rel="stylesheet" type="text/css">
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
-        <header>
-            <a href="../index.html">
-                <img src="../multimedija/logo.png" alt="Badmintonski Klub Međimurje logo" width="180" height="180">
-            </a>
-            <h1>Multimedija</h1>
-            <nav>
-                <a href="../index.html">Početna stranica</a>
-                <a href="../o_autoru.html">O autoru</a>
-                <a href="../obrasci/autentifikacija.html">Autentifikacija</a>
-                <a href="../obrasci/obrazac.html">Obrazac</a>
-                <a href="multimedija.html">Multimedija</a>
-                <a href="popis.html">Popis</a>
-                <button type="button">ODJAVA</button>
-            </nav>
-        </header>
-    
-    
-    
-        <footer>
-            <div>
-                <p>Luka Grubić, 2023.</p>
-                <img src="../multimedija/CCBY.png" alt="Licenca CC BY">
-            </div>
-            <div>
-                <a href="https://validator.w3.org/"><img src="../multimedija/htmlV.png" alt="HTML" class="slikaV"></a>
-                <a href="https://jigsaw.w3.org/css-validator/"><img src="../multimedija/cssV.png" alt="CSS" class="slikaV"></a>
-            </div>
-    
-        </footer>
-    
-    </body>
+    <link href="../css/lgrubic.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../multimedija/logo.png" alt="Badmintonski Klub Međimurje logo" width="180" height="180">
+        </a>
+        <h1>Multimedija</h1>
+        <nav>
+            <a href="../index.html">Početna stranica</a>
+            <a href="../o_autoru.html">O autoru</a>
+            <a href="../obrasci/autentifikacija.html">Autentifikacija</a>
+            <a href="../obrasci/obrazac.html">Obrazac</a>
+            <a href="multimedija.html">Multimedija</a>
+            <a href="popis.html">Popis</a>
+            <button type="button">ODJAVA</button>
+        </nav>
+    </header>
+
+    <div class="video-topic">
+        <h2>Video</h2>
+        <div class="video">
+            <h3>BWF short</h3>
+            <ul>
+                <li>Autor: BWF</li>
+                <li>Trajanje: 5s</li>
+            </ul>
+            <video autoplay controls muted>
+                <source src="../multimedija/video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video">
+            <h3>Trickshot</h3>
+            <ul>
+                <li>Trajanje: 4s</li>
+            </ul>
+            <video autoplay controls muted>
+                <source src="../multimedija/video2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video">
+            <h3>Debut contender Li Shi Feng rivals former champion Shi Yu Qi for the closing finals match</h3>
+            <ul>
+                <li>Autor: BWF</li>
+                <li>URL: https://www.youtube.com/watch?v=yb4xVCMRKCM&ab_channel=BWFTV</li>
+                <li>Trajanje: 306s</li>
+                <li>Godina: 2023.</li>
+            </ul>
+            <iframe src="https://www.youtube.com/embed/yb4xVCMRKCM" width="720" height="1280"></iframe>
+        </div>
+        <div class="video">
+            <h3>HSBC Play of The Day</h3>
+            <ul>
+                <li>Autor: BWF</li>
+                <li>URL: https://www.youtube.com/watch?v=PM5K4Q7Jlvg&ab_channel=BWFTV</li>
+                <li>Trajanje: 59s</li>
+                <li>Godina: 2023.</li>
+            </ul>
+            <iframe src="https://www.youtube.com/embed/PM5K4Q7Jlvg" width="720" height="1280"></iframe>
+        </div>
+    </div>
+
+    <div class="audio-topic">
+        <h2>Audio</h2>
+        <div class="video">
+            <h3>Fake smash</h3>
+            <ul>
+                <li>Trajanje: 19s</li>
+            </ul>
+            <audio controls>
+                <source src="../multimedija/audio1.mp3" type="audio/ogg">
+            </audio>
+        </div>
+        <div class="video">
+            <h3>Multishot training</h3>
+            <ul>
+                <li>Trajanje: 14s</li>
+            </ul>
+            <audio controls>
+                <source src="../multimedija/audio2.mp3" type="audio/ogg">
+            </audio>
+        </div>
+        <div class="video">
+            <h3>Pucanje špana</h3>
+            <ul>
+                <li>Trajanje: 13s</li>
+            </ul>
+            <audio controls>
+                <source src="../multimedija/audio3.mp3" type="audio/ogg">
+            </audio>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <p>Luka Grubić, 2023.</p>
+            <img src="../multimedija/CCBY.png" alt="Licenca CC BY">
+        </div>
+        <div>
+            <a href="https://validator.w3.org/"><img src="../multimedija/htmlV.png" alt="HTML" class="slikaV"></a>
+            <a href="https://jigsaw.w3.org/css-validator/"><img src="../multimedija/cssV.png" alt="CSS"
+                    class="slikaV"></a>
+        </div>
+
+    </footer>
+
+</body>
+
 </html>

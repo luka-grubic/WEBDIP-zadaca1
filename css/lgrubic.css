@@ -67,3 +67,7 @@ table, td, th{
     background-color: blanchedalmond;
     border: 2px solid black;
 }
+
+.video{
+    padding: 20px;
+}
