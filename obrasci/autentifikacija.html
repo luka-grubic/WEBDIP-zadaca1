@@ -30,7 +30,41 @@
             </nav>
         </header>
     
-        
+        <div class="auth-grid">
+            <div class="prijava">
+                <form id="obrazac-prijava" method="get" action="http://barka.foi.hr/WebDiP/2022/materijali/zadace/ispis_forme.php">
+                    <fieldset>
+                        <legend>Prijava</legend>
+                        <label for="emailP">Email: </label>
+                        <input type="email" id="emailP" size="30"><br>
+                        <label for="lozinkaP">Lozinka: </label>
+                        <input type="password" id="lozinkaP" size="30"><br>
+                        <input type="submit" value=" Prijavi se ">
+                    </fieldset>
+                </form>
+            </div>
+            <div class="registracija">
+                <form id="obrazac-registracija" method="post" action="http://barka.foi.hr/WebDiP/2022/materijali/zadace/ispis_forme.php">
+                    <fieldset>
+                        <legend>Registracija</legend>
+                        <label for="imeprezime">Ime i prezime: </label>
+                        <input type="text" id="imeprezime" maxlength="30"><br>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" size="30" maxlength="50"><br>
+                        <label for="spol">Spol: </label>
+                        <select id="spol" multiple="multiple" size="2">
+                            <option value="0" selected="selected">M</option>
+                            <option value="1">Ž</option>
+                        </select><br>
+                        <label for="lozinka">Lozinka: </label>
+                        <input type="password" id="lozinka" minlength="5"><br>
+                        <label for="potvrda">Potvrda lozinke: </label>
+                        <input type="password" id="potvrda" minlength="5"><br>
+                        <input type="submit" value=" Registriraj se ">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
     
         <footer>
             <div>

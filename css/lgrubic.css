@@ -53,3 +53,17 @@ table, td, th{
 .obrazac{
     text-align: center;
 }
+
+.auth-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#obrazac-prijava{
+    font-weight: bold;
+}
+
+#obrazac-registracija{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+}
