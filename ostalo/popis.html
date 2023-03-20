@@ -1,47 +1,118 @@
 <!DOCTYPE html>
 <html lang="hr">
-    <head>
-        <title>Popis</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Luka Grubić">
-        <meta name="date" content="14.3.2023.">
-        <meta name="keywords" content="badminton, popis">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Popis</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luka Grubić">
+    <meta name="date" content="14.3.2023.">
+    <meta name="keywords" content="badminton, popis">
 
-        <link href="../css/lgrubic.css" rel="stylesheet" type="text/css">
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
-        <header>
-            <a href="../index.html">
-                <img src="../multimedija/logo.png" alt="Badmintonski Klub Međimurje logo" width="180" height="180">
-            </a>
-            <h1>Popis</h1>
-            <nav>
-                <a href="../index.html">Početna stranica</a>
-                <a href="../o_autoru.html">O autoru</a>
-                <a href="../obrasci/autentifikacija.html">Autentifikacija</a>
-                <a href="../obrasci/obrazac.html">Obrazac</a>
-                <a href="multimedija.html">Multimedija</a>
-                <a href="popis.html">Popis</a>
-                <button type="button">ODJAVA</button>
-            </nav>
-        </header>
-    
-    
-    
-        <footer>
-            <div>
-                <p>Luka Grubić, 2023.</p>
-                <img src="../multimedija/CCBY.png" alt="Licenca CC BY">
-            </div>
-            <div>
-                <a href="https://validator.w3.org/"><img src="../multimedija/htmlV.png" alt="HTML" class="slikaV"></a>
-                <a href="https://jigsaw.w3.org/css-validator/"><img src="../multimedija/cssV.png" alt="CSS" class="slikaV"></a>
-            </div>
-    
-        </footer>
-    
-    </body>
+    <link href="../css/lgrubic.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../multimedija/logo.png" alt="Badmintonski Klub Međimurje logo" width="180" height="180">
+        </a>
+        <h1>Popis</h1>
+        <nav>
+            <a href="../index.html">Početna stranica</a>
+            <a href="../o_autoru.html">O autoru</a>
+            <a href="../obrasci/autentifikacija.html">Autentifikacija</a>
+            <a href="../obrasci/obrazac.html">Obrazac</a>
+            <a href="multimedija.html">Multimedija</a>
+            <a href="popis.html">Popis</a>
+            <button type="button">ODJAVA</button>
+        </nav>
+    </header>
+
+    <table>
+        <caption>Popis igrača</caption>
+
+        <thead class="tablicaP">
+            <tr>
+                <th>Im i prezime</th>
+                <th>Kategorija</th>
+                <th>Godina učlanjivanja</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Luka Grubić</td>
+                <td rowspan="3">seniori</td>
+                <td>2006.</td>
+            </tr>
+            <tr>
+                <td id="parno">Ivan Grubić</td>
+                <td id="parno">2012.</td>
+            </tr>
+            <tr>
+                <td>Luka Vlahek</td>
+                <td>1997.</td>
+            </tr>
+            <tr>
+                <td id="parno">Danijel Zadravec</td>
+                <td rowspan="4">veterani</td>
+                <td id="parno">1995.</td>
+            </tr>
+            <tr>
+                <td>Tomislav Grubić</td>
+                <td>1995.</td>
+            </tr>
+            <tr>
+                <td id="parno">Filip Vadlja</td>
+                <td id="parno">2010.</td>
+            </tr>
+            <tr>
+                <td>Nikola Šoštarić</td>
+                <td>1998.</td>
+            </tr>
+            <tr>
+                <td id="parno">Vanja Novak</td>
+                <td rowspan="2">juniori</td>
+                <td id="parno">2015.</td>
+            </tr>
+            <tr>
+                <td>Nela Novak</td>
+                <td>2015.</td>
+            </tr>
+            <tr>
+                <td id="parno">Lara Bel</td>
+                <td rowspan="2">kadeti</td>
+                <td id="parno">2018.</td>
+            </tr>
+            <tr>
+                <td>Anabela Bel</td>
+                <td>2018.</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr class="tablicaP">
+                <td colspan="2">Ukupno igrača</td>
+                <td>11</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <footer>
+        <div>
+            <p>Luka Grubić, 2023.</p>
+            <img src="../multimedija/CCBY.png" alt="Licenca CC BY">
+        </div>
+        <div>
+            <a href="https://validator.w3.org/"><img src="../multimedija/htmlV.png" alt="HTML" class="slikaV"></a>
+            <a href="https://jigsaw.w3.org/css-validator/"><img src="../multimedija/cssV.png" alt="CSS"
+                    class="slikaV"></a>
+        </div>
+
+    </footer>
+
+</body>
+
 </html>

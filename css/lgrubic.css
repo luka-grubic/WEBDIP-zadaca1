@@ -37,3 +37,15 @@ footer {
     column-gap: 20%;
     grid-template-columns: auto auto;
 }
+
+table, td, th{
+    border: 2px solid black;
+}
+
+.tablicaP{
+    font-weight: bold;
+}
+
+#parno{
+    background-color: rgb(147, 113, 58);
+}
