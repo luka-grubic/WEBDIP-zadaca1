@@ -1,23 +1,23 @@
-header{
+header {
     padding: 10px;
 }
 
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-footer{
+footer {
     padding: 10px;
     background-color: rgb(210, 131, 131);
 }
 
-.slikaV{
+.slikaV {
     width: 100px;
     height: 100px;
 }
 
-.odjeljak{
+.odjeljak {
     padding-top: 20px;
     padding-bottom: 10px;
 }
