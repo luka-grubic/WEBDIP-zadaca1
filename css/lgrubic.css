@@ -49,3 +49,7 @@ table, td, th{
 #parno{
     background-color: rgb(147, 113, 58);
 }
+
+.obrazac{
+    text-align: center;
+}
