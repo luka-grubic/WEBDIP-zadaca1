@@ -29,7 +29,31 @@
             </nav>
         </header>
     
-        
+        <form id="obrazac" method="post" action="http://barka.foi.hr/WebDiP/2022/materijali/zadace/ispis_forme.php">
+            <fieldset class="odjeljak">
+                <legend>Obrazac:</legend>
+                <label for="naslov">Naslov: </label>
+                <input type="text" id="naslov"><br>
+                <label for="posiljatelj">Pošiljatelj: </label>
+                <input type="email" id="posiljatelj" value="lgrubic@student.foi.hr"><br>
+                <label for="primatelj">Primatelj: </label>
+                <input type="email" id="primatelj"><br>
+                <label for="sadrzaj">Sadržaj: </label>
+                <textarea name="sadrzaj" placeholder="Unesite sadržaj..." rows="5" cols="50"></textarea><br>
+                <label for="prilog">Prilog: </label>
+                <input type="file" id="prilog"><br>
+                <label for="datetime">Datum i vrijeme: </label>
+                <input type="datetime-local" id="datetime"><br>
+            </fieldset>
+            <fieldset class="odjeljak">
+                <legend>Ostalo:</legend>
+                <label for="zadovoljstvo">Zadovoljstvo: </label>
+                <input type="range" id="zadovoljstvo" min="1" max="10" value="5"><br>
+                <label for="tjedan">Tjedan: </label>
+                <input type="week" id="tjedan">
+            </fieldset>
+            <input type="submit" value=" Pošalji ">
+        </form>
     
         <footer>
             <div>
